@@ -1,0 +1,8 @@
+## Author: Fiskee
+## Interface: 80100
+## Title: LazyGatherer
+## Version: 20181220
+## SavedVariables: LazyGathererPosition
+## SavedVariablesPerCharacter: LazyGathererEnabled
+
+LazyGatherer.lua
