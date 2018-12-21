@@ -36,7 +36,7 @@ local function CalculateDistance(unit1, unit2)
 end
 
 local function GetGatherUnits()
-  if skinOrLootUnit == nil or GetUnitIsVisible(skinOrLootUnit) == false then
+  if skinOrLootUnit == nil or UnitIsVisible(skinOrLootUnit) == false then
     skinOrLootUnit = nil
   end
   if herbObject == nil or ObjectDescriptor(herbObject, 0xDC, Types.Byte) > 0 then
