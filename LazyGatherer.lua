@@ -52,7 +52,7 @@ local function GetGatherUnits()
     end
     if (skinOrLootUnit == nil or CalculateDistance("player", skinOrLootUnit) > thisObjectDistance) and
         (UnitCanBeSkinned(thisObject) or UnitCanBeLooted(thisObject)) and
-        GetUnitIsVisible(thisObject) and
+        UnitIsVisible(thisObject) and
         UnitIsDeadOrGhost(thisObject)
      then
       skinOrLootUnit = thisObject
