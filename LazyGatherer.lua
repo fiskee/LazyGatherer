@@ -25,7 +25,8 @@ local herbs =
   281079,
   281868,
   281867,
-  276236
+  276236,
+  326598
 }
 
 local function CalculateDistance(unit1, unit2)
